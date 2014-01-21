@@ -21,6 +21,9 @@
 		00AC2F54188E3FAD00CE959C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC2F36188E3FAC00CE959C /* UIKit.framework */; };
 		00AC2F5C188E3FAD00CE959C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00AC2F5A188E3FAD00CE959C /* InfoPlist.strings */; };
 		00AC2F5E188E3FAD00CE959C /* Ex_3_86PTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AC2F5D188E3FAD00CE959C /* Ex_3_86PTests.m */; };
+		00AC2F69188E42A000CE959C /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AC2F68188E42A000CE959C /* TimelineViewController.m */; };
+		00AC2F6B188E42AE00CE959C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC2F6A188E42AE00CE959C /* Social.framework */; };
+		00AC2F6D188E42B800CE959C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC2F6C188E42B800CE959C /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		00AC2F59188E3FAD00CE959C /* Ex.3.86PTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex.3.86PTests-Info.plist"; sourceTree = "<group>"; };
 		00AC2F5B188E3FAD00CE959C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00AC2F5D188E3FAD00CE959C /* Ex_3_86PTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex_3_86PTests.m; sourceTree = "<group>"; };
+		00AC2F67188E42A000CE959C /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		00AC2F68188E42A000CE959C /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		00AC2F6A188E42AE00CE959C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		00AC2F6C188E42B800CE959C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AC2F6D188E42B800CE959C /* Accounts.framework in Frameworks */,
+				00AC2F6B188E42AE00CE959C /* Social.framework in Frameworks */,
 				00AC2F35188E3FAC00CE959C /* CoreGraphics.framework in Frameworks */,
 				00AC2F37188E3FAC00CE959C /* UIKit.framework in Frameworks */,
 				00AC2F33188E3FAC00CE959C /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		00AC2F31188E3FAC00CE959C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00AC2F6C188E42B800CE959C /* Accounts.framework */,
+				00AC2F6A188E42AE00CE959C /* Social.framework */,
 				00AC2F32188E3FAC00CE959C /* Foundation.framework */,
 				00AC2F34188E3FAC00CE959C /* CoreGraphics.framework */,
 				00AC2F36188E3FAC00CE959C /* UIKit.framework */,
@@ -119,6 +130,8 @@
 				00AC2F48188E3FAD00CE959C /* ViewController.m */,
 				00AC2F4A188E3FAD00CE959C /* Images.xcassets */,
 				00AC2F39188E3FAD00CE959C /* Supporting Files */,
+				00AC2F67188E42A000CE959C /* TimelineViewController.h */,
+				00AC2F68188E42A000CE959C /* TimelineViewController.m */,
 			);
 			path = Ex.3.86P;
 			sourceTree = "<group>";
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00AC2F49188E3FAD00CE959C /* ViewController.m in Sources */,
+				00AC2F69188E42A000CE959C /* TimelineViewController.m in Sources */,
 				00AC2F43188E3FAD00CE959C /* AppDelegate.m in Sources */,
 				00AC2F3F188E3FAD00CE959C /* main.m in Sources */,
 			);
